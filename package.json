@@ -1,0 +1,25 @@
+{
+  "name": "shift-notes-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for nursing shift notes: log tasks, handoffs, and observations via stdio with local JSON storage and printable summaries. Education only, not medical advice.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "nurse",
+    "shift-notes",
+    "healthcare",
+    "local-first",
+    "stdio"
+  ],
+  "author": "Asdale Dynamics, LLC",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  }
+}
